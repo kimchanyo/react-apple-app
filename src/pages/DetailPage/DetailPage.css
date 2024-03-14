@@ -1,0 +1,40 @@
+.detail-page__poster-img {
+  width: 100%;
+  height: auto;
+}
+
+.detail-page__content {
+  padding: 40px;
+}
+
+.detail-page__title {
+  padding: 0;
+  font-size: 40px;
+  max-width: 16px 0;
+}
+.detail-page__details {
+  font-weight: 600;
+  font-size: 18px;
+}
+.detail-page__overview {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+@media screen and (max-height: 768px) {
+  .detail-page {
+    overflow-y: scroll;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .detail-page__overview {
+    font-size: 16px;
+  }
+  .detail-page__details {
+    font-size: 16px;
+  }
+  .detail-page {
+    overflow-y: scroll !important;
+  }
+}
